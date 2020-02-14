@@ -69,4 +69,4 @@ const runCron = async () => {
   job.start();
 };
 
-sendEmailNotification();
+runCron();
